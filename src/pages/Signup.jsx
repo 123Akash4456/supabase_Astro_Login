@@ -69,7 +69,8 @@ const SignIn = () => {
               name="fullName"
               type="text"
               placeholder="FullName"
-              className="border-4 border-blue rounded-lg"
+              required
+              className="border-4 border-black rounded-lg"
               onChange={handleChange}
             />
             <br />
@@ -77,10 +78,11 @@ const SignIn = () => {
             <br />
             <br />
             <input
-              name="email" // Fix the name attribute here
+              name="email" 
               type="text"
               placeholder="codesastra@email.com"
-              className="border-6 border-black rounded-lg"
+              required
+              className="border-4 border-black rounded-lg"
               onChange={handleChange}
             />
             <br />
@@ -91,14 +93,15 @@ const SignIn = () => {
             <input
               name="password"
               type="password"
-              placeholder="Your@email.com"
-              className="border-6 border-black rounded-lg"
-              onChange={handleChange} // Add onChange to capture password input
+              placeholder="password:-"
+              required
+              className="border-4 border-black rounded-lg"
+              onChange={handleChange} 
             />
             <br />
             <br />
             <button
-              className="border-6 border-black rounded-full w-full h-8 bg-blue-900 text-white"
+              className="border-2 border-black rounded-full w-full h-8 bg-blue-900 text-white"
               type="submit"
             >
               Sign in
