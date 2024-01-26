@@ -16,6 +16,7 @@
     "@types/react-dom": "^18.2.18",
     "astro": "^4.1.2",
     "autoprefixer": "^10.4.16",
+    "flowbite-react": "^0.7.2",
     "postcss": "^8.4.33",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
